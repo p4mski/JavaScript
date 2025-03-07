@@ -1,16 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Merienda", cursive;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: #be4282;
     text-align: center;
     padding: 20px;
 }
 
 header {
-    background: #E49CC1;
+    background:#b84c80;
     color: white;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.home-img{
+    border-radius: 45%;
+    z-index: -1000;
+}
+
+.home-img img{
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 5);
+    z-index: -1000;
+}
+
+.teks {
+    text-shadow:1.5px 1.5px 0px #161616;
+    font-size: 20px;
+    animation-duration: 5;
+}
+
+.teks:hover {
+    transform: scale(1.5) translateY(45px) translateZ(160px);
+}
+
+.labelnama {
+    text-shadow: 1.5px 1.5px 0px #FF62AE;
+}
+
+.labeljumlah {
+    text-shadow: 1.5px 1.5px 0px #FF62AE;
 }
 
 .container {
@@ -28,7 +72,7 @@ header {
 
 button {
     background-color: #E49CC1;
-    color: #E49CC1;
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;

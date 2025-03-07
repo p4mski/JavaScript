@@ -3,7 +3,7 @@ function buatPilihan() {
     let jumlah = document.getElementById("jumlah").value;
 
     if (nama === "" || jumlah <= 0) {
-        alert("Masukkan Nama dan Jumlah Pilihan yang valid!");
+        alert("Masukkan Nama dan Jumlah Pilihan yang Valid!");
         return;
     }
 
@@ -27,14 +27,14 @@ function tampilkanPilihan(nama, jumlah) {
     for (let i = 1; i <= jumlah; i++) {
         let teksPilihan = document.getElementById(`pilihan${i}`).value.trim();
         if (teksPilihan === "") {
-            alert("Semua pilihan harus diisi!");
+            alert("Semua Pilihan Harus Di isi!");
             return;
         }
         pilihan.push(teksPilihan);
     }
 
     let hasilContainer = document.getElementById("hasilContainer");
-    hasilContainer.innerHTML = `<h3>Pilih salah satu</h3>`;
+    hasilContainer.innerHTML = `<h3>Pilih Salah Satu</h3>`;
 
     let dropdownHtml = `<br><select id="dropdown">`;
     for (let i = 0; i < pilihan.length; i++) {
@@ -52,9 +52,9 @@ function tampilkanHasil(nama, jumlah, pilihanStr) {
     let pilihanTerpilih = document.getElementById("dropdown").value;
 
     if (!pilihanTerpilih) {
-        alert("Pilih salah satu opsi terlebih dahulu!");
+        alert("Pilih Salah Satu Opsi Terlebih Dahulu!");
         return;
     }
 
-    alert(`Ola, Nama saya ${nama}, saya mempunyai sejumlah ${jumlah} pilihan yaitu ${pilihan.join(", ")}, dan saya memilih ${pilihanTerpilih}`);
+    alert(`Halo, Nama Saya ${nama}, Saya Mempunyai Sejumlah ${jumlah} Pilihan Yaitu ${pilihan.join(", ")}, dan Saya Memilih ${pilihanTerpilih}`);
 }
