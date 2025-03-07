@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4 - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Andreas Avelino D.S</h2>
+        <h3>235314014</h3>
+        <img src="wiriyutspp.jpg" alt="Foto Anda" width="150">
+    </header>
+    <div class="container">
+        <label for="nama">NAMA:</label>
+        <input type="text" id="nama">
+        <br>
+        <label for="jumlah">JMLH:</label>
+        <input type="number" id="jumlah" min="1">
+        <br>
+        <button onclick="buatPilihan()">OK</button>
+    </div>
+    <div id="pilihanContainer" class="container hidden"></div>
+    <div id="hasilContainer" class="container hidden"></div>
+    <script src="function.js"></script>
+</body>
+</html>
