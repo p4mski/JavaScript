@@ -12,14 +12,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #be4282;
+    background-color: whitesmoke;
+    ;
     text-align: center;
     padding: 20px;
 }
 
 header {
-    background:#b84c80;
-    color: white;
+    background: #ff0000;
+    color: whitesmoke;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -50,11 +51,11 @@ header {
 }
 
 .labelnama {
-    text-shadow: 1.5px 1.5px 0px #FF62AE;
+    text-shadow: 1.5px 1.5px 0px #ff0000;
 }
 
 .labeljumlah {
-    text-shadow: 1.5px 1.5px 0px #FF62AE;
+    text-shadow: 1.5px 1.5px 0px #ff0000;
 }
 
 .container {
@@ -71,7 +72,7 @@ header {
 }
 
 button {
-    background-color: #E49CC1;
+    background-color: lightgray;
     color: black;
     border: none;
     padding: 10px 20px;
@@ -81,7 +82,7 @@ button {
 }
 
 button:hover {
-    background-color: #E49CC1;
+    background-color: #ff0000;
 }
 
 input, select {
